@@ -1,6 +1,6 @@
 {
   "name": "@voorhoede/vue-fixed-ratio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/vue-fixed-ratio.ssr.js",
   "module": "dist/vue-fixed-ratio.esm.js",
