@@ -36,12 +36,24 @@ Vue.use(VueFixedRatio)
 
 ## Examples
 
+### Reserve space
+
 ::: demo
-<vue-fixed-ratio :height="10" :width="20" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
+<vue-fixed-ratio :width="20" :height="10" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
 :::
 
 ::: demo
-<vue-fixed-ratio :height="4" :width="20" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
+<vue-fixed-ratio :width="20" :height="4" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
+:::
+
+### With image
+
+::: demo
+<p>Text above image</p>
+<vue-fixed-ratio :width="400" :height="200" :style="{backgroundColor: '#ededed'}">
+<img src="https://picsum.photos/4000/2000" :style="{width: '100%'}">
+</vue-fixed-ratio>
+<p>Text below image</p>
 :::
 
 <!-- The API section is auto generated, don't touch please -->
