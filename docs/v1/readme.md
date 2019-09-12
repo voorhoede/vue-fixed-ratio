@@ -37,9 +37,25 @@ Vue.use(VueFixedRatio)
 ## Examples
 
 ::: demo
-<vue-fixed-ratio></vue-fixed-ratio>
+<vue-fixed-ratio :height="10" :width="20" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
+:::
+
+::: demo
+<vue-fixed-ratio :height="4" :width="20" :style="{backgroundColor: 'blue'}"></vue-fixed-ratio>
 :::
 
 <!-- The API section is auto generated, don't touch please -->
 
 ## API
+
+### vue-fixed-ratio 
+
+#### slots 
+
+- `default` 
+
+#### props 
+
+- `height` ***Number*** (*required*) 
+
+- `width` ***Number*** (*required*) 
