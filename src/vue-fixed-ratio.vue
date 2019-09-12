@@ -7,22 +7,21 @@
 </template>
 
 <script>
-const dimension = { type: Number, required: true }
 export default {
   props: {
     height: {
       type: Number,
-      required: true 
+      required: true,
     },
-    width:  {
+    width: {
       type: Number,
-      required: true 
+      required: true,
     },
   },
   computed: {
     ratio() {
-      return this.height / this.width * 100
-    }
+      return (this.height / this.width) * 100
+    },
   },
 }
 
