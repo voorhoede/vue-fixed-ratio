@@ -7,7 +7,8 @@ module.exports = {
     themeConfig: {
         search: false,
         nav: [
-            { text: 'v1', link: '/' }
+            { text: 'v1', link: '/' },
+            { text: 'Code', link: 'https://github.com/voorhoede/vue-fixed-ratio' }
         ]
     },
     plugins: [
