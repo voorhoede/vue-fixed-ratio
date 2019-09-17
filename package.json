@@ -8,7 +8,7 @@
   "author": "De Voorhoede (https://voorhoede.nl/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/voorhoede/vue-dato-image"
+    "url": "https://github.com/voorhoede/vue-fixed-ratio"
   },
   "licence": "MIT",
   "files": [
