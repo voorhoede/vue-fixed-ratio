@@ -5,6 +5,11 @@
   "main": "dist/vue-fixed-ratio.ssr.js",
   "module": "dist/vue-fixed-ratio.esm.js",
   "unpkg": "dist/vue-fixed-ratio.min.js",
+  "author": "De Voorhoede (https://voorhoede.nl/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voorhoede/vue-dato-image"
+  },
   "licence": "MIT",
   "files": [
     "dist/*",
