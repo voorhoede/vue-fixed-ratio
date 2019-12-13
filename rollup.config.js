@@ -99,12 +99,12 @@ if (!argv.format || argv.format === 'cjs') {
         output: pkg.css,
       }),
       vue({
-        css: false,
         ...baseConfig.plugins.vue,
         template: {
           ...baseConfig.plugins.vue.template,
           optimizeSSR: true,
         },
+        css: false,
       }),
       ...baseConfig.plugins.postVue,
       resolve(),
