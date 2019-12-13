@@ -69,7 +69,5 @@
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
     }
   },
-  "dependencies": {
-    "rollup-plugin-css-only": "^1.0.0"
-  }
+  "dependencies": {}
 }

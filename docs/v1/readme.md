@@ -49,6 +49,7 @@ Vue.use(VueFixedRatio)
 ### With image
 
 ::: demo
+
 <p>Text above image</p>
 <vue-fixed-ratio :width="400" :height="200" :style="{backgroundColor: '#ededed'}">
 <img src="https://picsum.photos/4000/2000" :style="{width: '100%'}">
